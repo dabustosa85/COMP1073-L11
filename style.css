@@ -1,0 +1,50 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+li {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h1 {
+    background-color: antiquewhite;
+    padding: 20px;
+}
+
+li button {
+    font-size: 16px;
+    margin-left: 20px;
+    color: #fff;
+    background-color: #ff5252;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+li button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+#add-item-button {
+    font-size: 16px;
+    margin-left: 20px;
+    color: #fff;
+    background-color: #17ca7f;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#add-item-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
